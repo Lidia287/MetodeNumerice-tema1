@@ -1,0 +1,46 @@
+
+Fisier README pentru Tema 1 - Lidia Istrate 315CD
+
+Exercitiul 1 - baza
+	Tratez separat cazurile in care baza este mai mica sau egala cu 9 , 10 sau mai mare si egala cu 11
+	Fiecarui caracter ii asociez numarul corespunzator si utilizez functia str2num
+	Initial, trec sursa in baza 10 , dupa care a convertesc in noua baza prin teorema impartirii cu rest  
+
+Exercitiul 2 - zig-zag
+	Tratez cazurile care ordinul este impar , respectiv par
+	Lucrez pe triunghiul inferior si pe cel superior
+
+Exercitiul 3 - codul morse
+
+morse - creez arborele cerut
+
+morse_decode - folosesc un pointer pentru a traversa arborele 
+		utilizez functia isempty pentru a vedea daca nu se intra pe o ramura goala
+		variabila check verifica daca s-a gasit o litera , altfel afiseaza * 
+
+morse_encode - ma plimb pe cele 4 nivele si utilizez un pointer
+
+multiple_decode  - utilizez functia anterioara morse_decode si concatenez rezultatele
+
+multiple_encode - apelez functia morse_encode si adaug spatii , pana ajung la capatul sirului dat 
+
+
+Exercitiul 4 - joc
+	Utilizez o matrice de 3x3 in care voi tine minte mutarile 
+	Codific in aceasta matrice pe X cu 1 si pe 0  cu 2 , iar casutele neocupate vor avea valoarea 0
+	La fiecare mutare jucatorul va fi intrebat daca vrea sa continue sau nu , acesta trebuind sa raspunda cu
+	da sau nu , in cazul in care spune da , jocul merge mai departe , iar la nu , jocul se opreste 
+	Mutarile vor fi introduce specificand locul ales prin numarul liniei si numarul coloanei , utilizatorul 
+	trebuind sa aleaga in loc ce nu a fost deja ocupat 
+	Verific de fiecare data cazurile pentru un posibil castig : cele 3 linii complete  sau cele 3 coloane , sau
+	cele 2 dagonale 
+	Egalitatea apare atunci cand tabla este plina dar niciunul nu a castigat 
+	Scorul este afisat la fiecare incheiere de partida
+	Daca la inceputul unei partide , utilizatorul trece de la folosirea lui X la 0 , atunci
+	scorurile se reseteaza la 0
+	Prima mutare va fi mereu a utilizatorului 
+
+
+
+
+
